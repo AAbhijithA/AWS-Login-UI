@@ -1,0 +1,86 @@
+.App{
+  padding-left: 40%;
+  padding-right: 45%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.normal{
+  font-weight: 200;
+  font-size: 11px;
+}
+.aws_img{
+  height: 10%;
+  width: 35%;
+  padding-left: 0%;
+}
+.radio-box {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px;
+}
+.radio-box.selected {
+  background-color: #e6f1fc;
+  border: 1px solid #5796de;
+}
+.radio-box:hover {
+  border-color: #5796de;
+}
+.optionS{
+  font-weight: 700;
+  font-size: 14px;
+}
+.rounded-input {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  height: 25px;
+}
+.rounded-input input {
+  width: 80%;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+.next-button {
+  background-color: #70bee6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+.next-button:hover {
+  background-color: #1d9cdb;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: lightgray;
+}
+.line {
+  flex-grow: 1;
+  margin: 0 10px;
+  border: none;
+  border-top: 2px solid lightgray;
+}
+.new-to-aws {
+  font-size: 18px;
+}
+.create-aws-account-button {
+  background-color: lightgray;
+  color: #25292e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+}
+.create-aws-account-button:hover {
+  background-color: gray;
+}  
